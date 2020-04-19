@@ -1,0 +1,18 @@
+{
+  "name": "kremling-react",
+  "version": "0.0.0",
+  "description": "",
+  "author": "tonylefler <tonylefler@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@kremling/core": "^0.0.0"
+  }
+}

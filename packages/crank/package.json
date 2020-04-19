@@ -1,0 +1,26 @@
+{
+  "name": "kremling-crank",
+  "version": "0.0.0",
+  "description": "",
+  "author": "tonylefler <tonylefler@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "build/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "babel src --out-dir build --watch",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@kremling/core": "^0.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@bikeshaving/crank": "^0.1.0"
+  }
+}
